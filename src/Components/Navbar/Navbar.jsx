@@ -16,13 +16,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-purple-500 color:blue">
-      <div onClick={() => setOpen(!open)} className="md:hidden">
+    <nav className="bg-purple-500 color:blue ">
+      <div onClick={() => setOpen(!open)} className="md:hidden ml-4">
         <span>
           {open === true ? (
-            <XMarkIcon className="h-6 w-6 text-blue-500" />
+            <XMarkIcon className="h-6 w-6 text-white" />
           ) : (
-            <Bars3Icon className="h-6 w-6 text-blue-500" />
+            <Bars3Icon className="h-6 w-6 text-white" />
           )}
         </span>
       </div>
