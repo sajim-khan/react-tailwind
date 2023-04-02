@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Membership",
+    "price": 200,
+    "features": [
+      "Gym access",
+      "Cardio equipment",
+      "Weight equipment",
+      "Locker rooms",
+      "Showers"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Membership",
+    "price": 300,
+    "features": [
+      "Gym access",
+      "Cardio equipment",
+      "Weight equipment",
+      "Group fitness classes",
+      "Sauna",
+      "Steam room",
+      "Locker rooms",
+      "Showers"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Platinum Membership",
+    "price": 500,
+    "features": [
+      "24/7 gym access",
+      "Cardio equipment",
+      "Weight equipment",
+      "Group fitness classes",
+      "Personal training sessions",
+      "Sauna",
+      "Steam room",
+      "Locker rooms",
+      "Showers"
+    ]
+  }
+]

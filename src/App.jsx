@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
+import PriceList from "./Components/PriceList/PriceList";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
     <Navbar></Navbar>
       <h1 className="text-7xl text-purple-700">Hello tailwind</h1>
+      <PriceList></PriceList>
     </div>
   );
 }
