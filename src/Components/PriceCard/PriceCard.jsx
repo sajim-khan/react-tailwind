@@ -15,7 +15,7 @@ const PriceCard = ({ price }) => {
       {price.features.map((feature, index) => (
         <Feature key={index} feature={feature}></Feature>
       ))}
-      <button className="w-full mt-auto bottom-0 hover:bg-blue-600 bg-cyan-500  rounded-lg">
+      <button className="w-full mt-auto bottom-0 hover:bg-blue-600 bg-cyan-500  rounded-lg py-2">
         Buy Now
       </button>
     </div>
